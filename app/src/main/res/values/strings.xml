@@ -1,3 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="app_name">My Application</string>
+    <!-- General strings -->
+    <string name="not_available">N/A</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="section_instructions">Instructions:</string>
+    <string name="action_begin_test">Start test</string>
+    <string name="action_test_in_progress">Test in progress&#8230;</string>
+    <string name="action_cancel_test">Cancel</string>
+
+    <string name="dialog_missing_permission">Permission required</string>
+    <string name="grant_permission_in_settings">Please grant the permission in the app settings.</string>
+
+    <!-- Free draw -->
+    <string name="freedraw_test_title">Drawing</string>
+    <string name="freedraw_test_summary">Draw freely on the screen</string>
+    <string name="freedraw_test_description">Draw freely on the screen.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="freedraw_test_instructions">Press \'%1$s\' and use your finger to draw freely on the screen. To go back, swipe from the bottom of the screen towards the top to make the navigation buttons appear.</string>
+
+    <!-- LCD -->
+    <string name="lcd_test_title">Screen (LCD)</string>
+    <string name="lcd_test_summary">The LCD screen displays your Fairphone\'s content</string>
+    <string name="lcd_test_description">The LCD screen displays your Fairphone\'s content.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="lcd_test_instructions">Press \'%1$s\' and tap the screen to cycle through various colors. Look specifically for any screen abnormalities, i.e. blank spots, etc.</string>
+
+    <!-- (Generic) Microphone loopback -->
+    <string name="mic_loopback_test_permissions_rationale">The microphone permission needs to be allowed in order to start the test.</string>
+
+    <!-- Primary microphone loopback -->
+    <string name="primary_mic_loopback_test_title">Primary microphone</string>
+    <string name="primary_mic_loopback_test_summary">The microphone that is used for phone calls</string>
+    <string name="primary_mic_loopback_test_description">The microphone that is used for phone calls.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="primary_mic_loopback_test_instructions">Press \'%1$s\' and pretend you are making a phone call by holding the phone against your ear. If you can hear yourself talk, no worries, that means the microphone is working correctly!</string>
+
+    <!-- Secondary microphone loopback -->
+    <string name="secondary_mic_loopback_test_title">Secondary microphone</string>
+    <string name="secondary_mic_loopback_test_summary">The microphone to reduce ambient noise</string>
+    <string name="secondary_mic_loopback_test_description">The microphone to reduce ambient noise.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="secondary_mic_loopback_test_instructions">Press \'%1$s\' and pretend you are making a phone call, but hold your phone upside down. Can you hear yourself?</string>
+
+    <!-- Modem -->
+    <string name="modem_test_title">Mobile connectivity</string>
+    <string name="modem_test_summary">Information about mobile connectivity</string>
+    <string name="modem_test_description">Information about mobile connectivity.</string>
+    <string name="modem_test_permissions_rationale">The telephone permission needs to be allowed in order to display information about mobile connectivity.</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_absent_title">No SIM card in slot %1$d</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_ready_title">Slot %1$d - SIM connected</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_ready_not_connected_title">Slot %1$d - SIM not connected</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_pin_required_title">Slot %1$d - SIM PIN code required</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_puk_required_title">Slot %1$d - SIM PUK code required</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_network_locked_title">Slot %1$d - SIM network PIN code required</string>
+    <!-- Arguments: <SIM slot number> -->
+    <string name="modem_sim_unknown_state_title">Slot %1$d - unknown SIM state</string>
+    <string name="modem_network_operator">Network Operator:</string>
+    <string name="modem_network_operator_code">Network Operator Code:</string>
+    <string name="modem_network_operator_code_mnc">Network Operator Code (MNC):</string>
+    <string name="modem_network_operator_code_mcc">Network Operator Code (MCC):</string>
+    <string name="modem_sim_operator_code">SIM Operator Code:</string>
+    <string name="modem_sim_operator_code_mnc">SIM Operator Code (MNC):</string>
+    <string name="modem_sim_operator_code_mcc">SIM Operator Code (MCC):</string>
+    <string name="modem_sim_operator">SIM Operator:</string>
+    <string name="modem_network_type">Network type:</string>
+    <string name="modem_data_connected">Mobile data connected:</string>
+    <string name="modem_data_activity">Data activity:</string>
+    <string name="modem_mnc">MNC:</string>
+    <string name="modem_mcc">MCC:</string>
+    <string name="modem_imei">IMEI:</string>
+    <string name="modem_countrycode">Country code:</string>
+    <string name="modem_roaming">Roaming:</string>
+    <string name="modem_data_roaming">Mobile data roaming:</string>
+
+    <!-- Ear speaker -->
+    <string name="ear_speaker_test_title">Ear speaker</string>
+    <string name="ear_speaker_test_summary">The ear speaker is used to hear the other person during phone calls</string>
+    <string name="ear_speaker_test_description">The ear speaker is used to hear the other person during phone calls.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="ear_speaker_test_instructions">Press \'%1$s\' and pretend you are making a phone call. If you hear the music through the ear speaker, that means it is working correctly.</string>
+
+    <!-- Loud speaker -->
+    <string name="loud_speaker_test_title">Rear speaker</string>
+    <string name="loud_speaker_test_summary">The rear speaker is used for listening to music and hands-free phone calls</string>
+    <string name="loud_speaker_test_description">The rear speaker is used for listening to music and hands-free phone calls.</string>
+    <!-- Arguments: <action button label> -->
+    <string name="loud_speaker_test_instructions">Press \'%1$s\' and use the physical volume buttons to lower or raise the sound level. You should hear your favorite Fairphone tune playing!</string>
+
+    <!-- Vibration motor -->
+    <string name="vibrator_test_title">Vibration motor</string>
+    <string name="vibrator_test_summary">This is what makes your Fairphone vibrate</string>
+    <string name="vibrator_test_description">This is what makes your Fairphone vibrate.</string>
+    <!-- Arguments: <action button label> <vibration duration in seconds (integer)> -->
+    <plurals name="vibrator_test_instructions">
+        <item quantity="one">Press \'%1$s\' to make your phone vibrate for %2$d second.</item>
+        <item quantity="other">Press \'%1$s\' to make your phone vibrate for %2$d seconds.</item>
+    </plurals>
+
+    <!-- Wifi -->
+    <string name="wifi_test_title">Wi-Fi</string>
+    <string name="wifi_test_summary">Information about Wi-Fi connectivity</string>
+    <string name="wifi_test_description">Information about Wi-Fi connectivity.</string>
+    <string name="wifi_disabled_title">Wi-Fi disabled</string>
+    <string name="wifi_connected_title">Wi-Fi enabled and connected</string>
+    <string name="wifi_not_connected_title">Wi-Fi enabled, but not connected</string>
+    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_bssid">BSSID:</string>
+    <string name="wifi_linkspeed">Link speed:</string>
+    <string name="wifi_signal_strength">Signal strength:</string>
+    <string name="wifi_mac_address">MAC address:</string>
+    <string name="wifi_frequency">Frequency:</string>
+    <string name="wifi_encryption">Encryption:</string>
+    <string name="wifi_ip_address">IP address:</string>
+    <string name="wifi_dns_servers">DNS servers:</string>
+    <string name="wifi_ssid_is_hidden">Hidden SSID</string>
+
 </resources>

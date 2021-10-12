@@ -13,4 +13,13 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="colorFingerPainting">#0000FF</color>
+
+    <!-- Palette colors referenced by top-level themes.-->
+    <color name="primary">#03a9f4</color>
+    <color name="primary_light">#b3e5fc</color>
+    <color name="primary_dark">#0288d1</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_light">#ff80ab</color>
+    <color name="accent_dark">#f50057</color>
+
 </resources>
